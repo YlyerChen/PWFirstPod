@@ -13,6 +13,7 @@
 		4C077112209446E000187195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C077111209446E000187195 /* Assets.xcassets */; };
 		4C077115209446E000187195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C077113209446E000187195 /* LaunchScreen.storyboard */; };
 		4C077118209446E000187195 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C077117209446E000187195 /* main.m */; };
+		4C0771212094603A00187195 /* EasyWaterMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C07711F2094603A00187195 /* EasyWaterMark.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4C077114209446E000187195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C077116209446E000187195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C077117209446E000187195 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C07711F2094603A00187195 /* EasyWaterMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyWaterMark.m; sourceTree = "<group>"; };
+		4C0771202094603A00187195 /* EasyWaterMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyWaterMark.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		4C077107209446E000187195 /* PWFirstPod */ = {
 			isa = PBXGroup;
 			children = (
+				4C07711E20945CC300187195 /* WaterMark */,
 				4C077108209446E000187195 /* AppDelegate.h */,
 				4C077109209446E000187195 /* AppDelegate.m */,
 				4C07710B209446E000187195 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				4C077117209446E000187195 /* main.m */,
 			);
 			path = PWFirstPod;
+			sourceTree = "<group>";
+		};
+		4C07711E20945CC300187195 /* WaterMark */ = {
+			isa = PBXGroup;
+			children = (
+				4C0771202094603A00187195 /* EasyWaterMark.h */,
+				4C07711F2094603A00187195 /* EasyWaterMark.m */,
+			);
+			path = WaterMark;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +157,7 @@
 			files = (
 				4C07710D209446E000187195 /* ViewController.m in Sources */,
 				4C077118209446E000187195 /* main.m in Sources */,
+				4C0771212094603A00187195 /* EasyWaterMark.m in Sources */,
 				4C07710A209446E000187195 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
