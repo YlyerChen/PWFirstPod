@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
     s.source       = { :git => "https://github.com/YlyerChen/PWFirstPod.git", :tag => "#{s.version}" }
 
     # s.source_files  = "WaterMark", "WaterMark/*.{h,m}"
-    s.source_files  = "WaterMark/*.{h,m}"
+    s.source_files  = "PWWaterMark/**/*.{h,m}"
     # s.public_header_files = "WaterMark/*.h"
 
     s.frameworks = "UIKit", "Foundation"
